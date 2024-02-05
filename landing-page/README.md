@@ -29,16 +29,16 @@
 - This website is created using the different web technologies such as : HTML5, CSS3 and JS ESE6.
 - The project structure have the following folders and files :
 
-# css
+### css
     - styles.css	
 - index.html
-# js
+### js
     - app.js
-# images
+### images
     - mixfruit.png
 - README.md
 
-# The required changes that I did are based on the project requirements from Udacity and the rest are extra changes from my own design :
+### The required changes that I did are based on the project requirements from Udacity and the rest are extra changes from my own design :
 
 - I changed the whole website content and theme to green to match the idea of the website title.
 - I updated the navbar style and title to be responsive in the small screens.

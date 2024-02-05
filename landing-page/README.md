@@ -31,12 +31,12 @@
 
 ### css
     - styles.css	
-- index.html
+### index.html
 ### js
     - app.js
 ### images
     - mixfruit.png
-- README.md
+### README.md
 
 ### The required changes that I did are based on the project requirements from Udacity and the rest are extra changes from my own design :
 

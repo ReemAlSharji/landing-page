@@ -1,0 +1,134 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EatWell</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <h3 class="website_header">Eat Well</h3>
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1 class="heading_title">Landing Page </h1>
+      <img class="hero_image" src="images/mixfruit.png" height="530px" alt="">
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="About" class="your-active-class">
+      <div class="landing__container">
+        <h2>About</h2>
+        <p>"Eating well" typically refers to adopting a diet that promotes overall health and well-being. This involves
+          making mindful and nutritious food choices to provide the body with the essential nutrients it needs for
+          optimal functioning. Here are some key aspects of "eating well":
+        </p>
+        <ol>
+          <li>Balanced Diet.</li>
+          <li>Portion Control.</li>
+          <li>Nutrient-Dense Foods.</li>
+          <li>Hydration.</li>
+          <li>Whole Foods.</li>
+          <li>Moderation and Variety.</li>
+          <li>Mindful Eating.</li>
+          <li>Mindful eating.</li>
+        </ol>
+        <p>It's important to note that eating well is not about strict diets or deprivation but rather about making
+          sustainable, health-promoting choices that suit your individual preferences and needs. Consulting with a
+          registered dietitian or nutrition professional can provide personalized guidance based on your health goals
+          and lifestyle.
+        </p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Healthy Recipe">
+      <div class="landing__container">
+        <h2>Healthy Recipe</h2>
+        <p>Healthy recipes often include a variety of nutrient-dense ingredients such as fruits, vegetables, whole
+          grains, lean
+          proteins, and healthy fats. These provide essential vitamins, minerals, antioxidants, and other nutrients
+          necessary
+          for optimal health.
+          Healthy recipes can be designed to support weight management by focusing on portion control, incorporating
+          high-fiber
+          foods, and choosing ingredients that promote satiety. This helps in maintaining a healthy weight or achieving
+          weight
+          loss goals.
+        </p>
+
+        <p>Well-planned healthy recipes provide a balanced mix of carbohydrates, proteins, and fats, ensuring that your
+          body receives the necessary fuel for energy, muscle function, and overall metabolic health.
+          Recipes that emphasize heart-healthy ingredients, such as omega-3 fatty acids, fiber, and plant sterols,
+          contribute to cardiovascular health by supporting healthy cholesterol levels, blood pressure, and reducing the
+          risk of heart disease.
+        </p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Mental Health">
+      <div class="landing__container">
+        <h2>Mental Health</h2>
+        <p>Proper nutrition has been linked to improved cognitive function and mental well-being. Nutrients like omega-3
+          fatty acids, vitamins, and minerals play a crucial role in brain health.
+          A well-balanced diet supports the body's ability to cope with stress and adversity. Nutrient-dense foods
+          provide the necessary resources for the body to adapt and recover from challenging situations.
+        </p>
+
+        <p>It's important to note that while nutrition plays a crucial role in mental health, it is not a substitute for
+          professional mental health care. Individuals experiencing mental health challenges should seek support from
+          healthcare professionals, including mental health experts and registered dietitians, for a comprehensive
+          approach to well-being.
+          Research suggests that a diet rich in fruits, vegetables, whole grains, and lean proteins may be associated
+          with a lower
+          risk of developing mental health disorders, including depression and anxiety.
+        </p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Healthy Lifestyle">
+      <div class="landing__container">
+        <h2>Healthy Lifestyle</h2>
+        <p>A healthy lifestyle, including regular exercise, a balanced diet, and avoiding harmful habits (such as
+          smoking and excessive alcohol consumption), can lower the risk of chronic conditions like heart disease,
+          diabetes, and certain cancers.
+          Incorporating regular physical activity and making nutritious food choices supports weight management,
+          reducing the risk of obesity-related health issues.
+        </p>
+
+        <p>Physical activity stimulates the release of endorphins, the "feel-good" hormones, leading to improved mood
+          and a reduced risk of depression and anxiety.
+          Leading a healthy lifestyle often leads to an overall sense of well-being and happiness, as individuals feel
+          more in control of their physical and mental health.
+          Adopting healthy habits, such as a balanced diet and regular exercise, is associated with a longer life
+          expectancy.
+          <br>
+          for more tips, visit : <br><br> <button class="section_button"><a
+              href="https://www.healthline.com/nutrition/healthy-eating-tips#meal-planning" target="_blank">Health
+              Line</a></button>
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <span>&copy Udacity - By <u>Reem AlSharji</u></span>
+  </footer>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

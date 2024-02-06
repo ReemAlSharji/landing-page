@@ -70,14 +70,15 @@ function scrollEvent(section, nav_lists) {
 
 function addActiveClass() {
     const select_links = document.querySelectorAll(".menu__link")
-    main_sections.forEach((section) => {
+    main_sections.forEach((section, i) => {
         const element_position = section.getBoundingClientRect();
         if (element_position.top <= 420 && element_position.bottom >= 200) {
 
             section.classList.add("your-active-class");
-
+            select_links[i].classList.add("active_link");
         } else {
             section.classList.remove("your-active-class");
+            select_links[i].classList.remove("active_link");
         }
     })
 }

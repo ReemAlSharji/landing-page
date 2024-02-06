@@ -100,6 +100,12 @@ section {
     display: inline-block;
 }
 
+.active_link{
+    display: block;
+    background: linear-gradient(315deg, #8be47c 0%, #2e993b 100%);
+    color: #fff !important;
+}
+
 .navbar__menu .menu__link {
     display: block;
     padding: 1em;
